@@ -1,0 +1,89 @@
+
+.footer-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    }
+
+.toggle {
+    background-color: #44CCEE; /* Default background color (light mode) */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px rgba(53, 116, 193, 0.3); /* Default shadow color */
+    line-height: 1;
+    transition-delay: 300ms;
+    
+}
+
+.input {
+    display: none;
+}
+
+.icon {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    transition: transform 500ms;
+}
+
+.icon--moon {
+    transform: scale(0); /* Hide moon by default */
+    transition-delay: 200ms;
+    color: rgb(255, 255, 255);
+}
+
+.icon--sun {
+    transform: scale(1); /* Show sun by default */
+    color: yellow;
+    transition-delay: 300ms;
+}
+
+#switch:checked + .icon--moon {
+    transform: scale(1) rotate(360deg); /* Show moon when checked */
+}
+
+#switch:checked ~ .icon--sun {
+    transform: scale(0) rotate(360deg); /* Hide sun when checked */
+    transition-delay: 200ms;
+}
+
+.toggle:has(#switch:checked) {
+    background-color: #727070; /* Dark mode background color */
+    box-shadow: 0 0 5px 2px rgba(219, 210, 210, 0.5); /* Darker shadow */
+    transition-delay: 300ms;
+}
+
+footer {
+    text-align: center;
+    background: #44CCEE;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+/* Media query for width less than 700px */
+@media (max-width: 699px){
+
+    
+.footer-1{
+    
+    top: 75px;
+    right: 25px;
+    
+    }
+
+
+}
+
+
+

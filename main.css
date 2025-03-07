@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    line-height: 1.6;
+    margin: 0;
+    margin: 0;
+    background: linear-gradient(115deg, #ffffff, #d4dfed);
+    
+    background-image: url('./Images/bg\ 1.png') ; /* Replace with your image path */
+    background-size: contain; /* Ensures the entire image is visible */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: top;
+    transition-duration: 1.5s; /* Make it fade smoothly */
+    
+    }
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+

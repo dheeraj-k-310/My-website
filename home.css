@@ -1,0 +1,140 @@
+
+#home{
+padding-bottom: 120px;
+}
+
+.home {
+    padding-top: 100px;
+    padding-left: 5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.home div{
+    padding-top: 10px;
+    align-self: flex-start;
+}
+
+.Animation-text span{
+    
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+.Animation-text {
+    font-size: 45px;
+}
+
+
+/* Gradient Animation of "Dheeraj" */
+
+/* .home h1 span{
+    text-align: center;
+    
+    background: linear-gradient(to right, #FFF 5%, #9f44ee 20%, #44adee 40%, #9f44ee 60%,#44adee 80%, #a706e6a3 90%),#9106d2 99%;
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+    animation: shine 5s linear infinite;}
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+   */
+
+
+
+
+
+.home h4{
+    padding-top: 5px;
+    font-size: 40px;
+}
+  
+.home p{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+/* From Uiverse.io by Mhyar-nsi */ 
+#resume-button {
+    background-color: #3b82f6;
+    font-size: 25px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 125px;
+    height: 56.25px;
+    transition: 0.3s;
+  }
+  
+  #resume-button:hover {
+    background-color: transparent;
+    border: 2px solid #3b82f6;
+    box-shadow: 0 0 0 1px #0987e2;
+    color: #3b82f6;
+    font-weight: bolder;
+  }
+  
+
+#home img {
+      
+      
+      width: 500px;
+      height: auto;
+      padding-right: 10 px;
+  }
+  
+  
+  
+  
+
+/* Media query for width less than 700px */
+@media (max-width: 699px) {
+
+.home {
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.Animation-text {
+    font-size: 30px;
+}
+
+.Animation-text span{
+    
+    color: #1A73E8;
+}
+
+
+
+.home h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#home img {
+    margin: auto;
+    height: auto;
+    width: 95%;
+    
+}
+
+
+
+}

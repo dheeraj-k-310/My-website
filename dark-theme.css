@@ -1,0 +1,44 @@
+
+.dark-theme{
+    background-color: #CBCBCB;
+    background-image: url('./Images/bg\ 2.png')
+}
+
+
+.dark-theme .navbar {
+    /* background-color: #7e8388; */
+    color: #ffffff; 
+    opacity: 1; 
+    background: rgba(96, 96, 98, 0.7); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Apply blur to the background behind the container */
+    transition: backdrop-filter 0.5s ease; /* Add transition for smooth effect */
+    
+}
+
+.dark-theme .navbar a {
+    color: white;
+    }
+
+.dark-theme .navbar a:hover, .navbar a.active {
+    background-color: #a8a7a7;
+    color: #FFF;
+}
+
+
+
+.dark-theme .typing-effect{
+  color: #1A73E8; 
+}
+
+
+.dark-theme .skill-tiles:hover{
+    color: #FFF;
+   }
+
+.dark-theme .education-12th:hover ,.dark-theme .education-college:hover  {
+    color: #FFF;
+}
+
+.dark-theme #about h2, .dark-theme #portfolio h2 , .dark-theme #contact h2 {
+    color: #1A73E8;
+  }

@@ -1,0 +1,155 @@
+#about{
+    padding-top: 100px; 
+    
+  }
+
+#about{
+  padding-left: 3%;
+  padding-right: 3%;
+  }
+
+#about h2 {
+ 
+  font-size: 45px;
+}
+
+
+#about h3 {
+ 
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-me{
+  font-size: 20px;
+}
+
+.skill-tiles-div{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-tiles{
+  border: 0.5px solid #44CCEE;
+  background-color: #44CCEE;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  
+}
+
+.skill-tiles:hover{
+  background-color: transparent;
+  color: #44CCEE;
+  font-weight: bold;
+  transition-delay: 0.05s;
+  transform: scale(1.05); /* Optional: Slight zoom effect */
+   
+}
+
+
+
+.skill-tiles img{
+  width: 60px;
+}
+
+.skill-tiles p{
+  font-size: 25px;
+  margin-right: 40px;
+  
+}
+#python-logo{
+  flex: 1;
+}
+
+#html-logo{
+  flex: 1;
+}
+#css-logo{
+  flex: 1;
+}
+#javascript-logo{
+  width: 20%;
+  flex: 1;
+  
+}
+
+
+
+.education-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px; /* Gap between items */
+  padding: 20px;
+ 
+}
+
+.education-container h4{
+  font-size: 25px;
+}
+
+.education-college{
+  border: 0.5px solid #44CCEE;
+  background-color: #44CCEE;
+  color: white;
+  border-radius: 20px;
+  flex: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-left:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-size: bold;
+}
+
+.education-12th{
+  border: 0.5px solid #44CCEE;
+  background-color: #44CCEE;
+  color: white;
+  border-radius: 20px;
+  flex: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-left:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-weight: bold;
+}
+
+.education-12th:hover ,.education-college:hover {
+
+    background-color: transparent;
+    color: #44CCEE;
+    transition-delay: 0.05s;
+    transform: scale(1.05); /* Optional: Slight zoom effect */
+     font-weight: bold;
+  
+}
+
+
+@media (max-width: 699px){
+
+  .education-container{
+    
+    flex-direction: column;
+   
+  }
+
+  #about{
+    padding-top: 15px; 
+    
+  }
+
+
+}
